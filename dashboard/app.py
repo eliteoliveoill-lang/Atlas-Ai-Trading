@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
 import joblib
-import ynce as yf
+import yfinance as yf
 from streamlit_autorefresh import st_autorefresh
 
 from ai.predict_ml import predict_from_row
