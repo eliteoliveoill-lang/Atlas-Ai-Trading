@@ -1,3 +1,9 @@
+import os
+import sys
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(ROOT)
+
 import streamlit as st
 import pandas as pd
 import numpy as np
