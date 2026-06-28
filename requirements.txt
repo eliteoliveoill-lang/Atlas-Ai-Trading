@@ -12,3 +12,4 @@ ta
 sqlalchemy
 python-dotenv
 joblib
+streamlit-autorefresh
